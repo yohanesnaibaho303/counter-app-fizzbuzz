@@ -4,10 +4,11 @@ import "./index.css";
 import PenambahanApp from "./PenambahanApp.jsx";
 import PenguranganApp from "./PenguranganApp.jsx";
 import CounterApp from "./CounterApp.jsx";
+import NewCounterApp from "./newCounterApp/NewCounterApp.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <PenguranganApp />
+    {/* <PenguranganApp />
     <br />
     <br />
     <br />
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <br />
     <br />
     <br />
-    <CounterApp />
+    <CounterApp /> */}
+    <NewCounterApp />
   </React.StrictMode>
 );
